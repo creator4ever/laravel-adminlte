@@ -16,7 +16,7 @@ class AssetManager
 	 * Scripts array to include on every admin page
 	 * @var array
 	 */
-	protected static $scripts = [];
+	protected static $scripts = ['/packages/almasaeed2010/adminlte/plugins/jQuery/jQuery-2.1.3.min.js', 'http://code.jquery.com/ui/1.11.2/jquery-ui.min.js'];
 
 	public static function styles()
 	{
