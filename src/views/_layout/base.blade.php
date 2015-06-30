@@ -7,7 +7,7 @@
 
 	<title>{{{ $pageTitle }}}</title>
 
-	@foreach (\SleepingOwl\Admin\AssetManager\AssetManager::styles() as $style)
+	@foreach (\GionniValeriana\laravelAdminlte\AssetManager::styles() as $style)
 		<link media="all" type="text/css" rel="stylesheet" href="{{ $style }}" >
 	@endforeach
 
@@ -20,7 +20,7 @@
 
     @include('adminlte::_layout.css')
 
-	@foreach (\SleepingOwl\Admin\AssetManager\AssetManager::scripts() as $script)
+	@foreach (\GionniValeriana\laravelAdminlte\AssetManager::scripts() as $script)
 		<script src="{{ $script }}"></script>
 	@endforeach
 </head>
