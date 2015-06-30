@@ -10,7 +10,7 @@ Laravel AdminLTE
 
 Forked [gionnivaleriana/laravel-adminlte](https://github.com/gionnivaleriana/laravel-adminlte). Remove AssetManager default scripts.
 
-Change alias 'Adminlte' to app/config.php.
+Change alias 'AssetManager' to app/config.php.
 
 ```php
 <?php
