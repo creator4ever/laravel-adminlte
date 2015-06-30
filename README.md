@@ -7,6 +7,25 @@ Laravel AdminLTE
 [![License](https://poser.pugx.org/gionnivaleriana/laravel-adminlte/license.svg)](https://packagist.org/packages/gionnivaleriana/laravel-adminlte)
 [![HHVM Status](http://hhvm.h4cc.de/badge/gionnivaleriana/laravel-adminlte.svg)](http://hhvm.h4cc.de/package/gionnivaleriana/laravel-adminlte)
 
+
+Forked [gionnivaleriana/laravel-adminlte](https://github.com/gionnivaleriana/laravel-adminlte). Remove AssetManager default scripts.
+
+Change alias 'Adminlte' to app/config.php.
+
+```php
+<?php
+// app/config.php
+return [
+    
+    // ...
+    
+    'aliases' => [
+        // ...
+        'AssetManager'     => GionniValeriana\laravelAdminlte\AssetManager::class,
+    ],
+```
+
+
 An Almsaeed's AdminLTE template built for Sleeping Owl's Admin, an administrative interface builder for Laravel 5.
 
 - [Installation](#installation)
