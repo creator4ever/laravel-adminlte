@@ -1,7 +1,3 @@
-<!-- Resolve conflict in jQuery UI tooltip with Bootstrap tooltip -->
-<script>
-    $.widget.bridge('uibutton', $.ui.button);
-</script>
 <script src="{{ URL::asset('packages/almasaeed2010/adminlte/bootstrap/js/bootstrap.min.js') }}" type="text/javascript"></script>
 <script src="http://cdnjs.cloudflare.com/ajax/libs/raphael/2.1.0/raphael-min.js"></script>
 <script src="{{ URL::asset('packages/almasaeed2010/adminlte/plugins/morris/morris.min.js') }}" type="text/javascript"></script>

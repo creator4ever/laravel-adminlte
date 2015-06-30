@@ -11,12 +11,12 @@ class AssetManager
 	 * Styles array to include on every admin page
 	 * @var array
 	 */
-	protected static $styles = [];
+	protected static $styles = ['admin::all.min.css'];
 	/**
 	 * Scripts array to include on every admin page
 	 * @var array
 	 */
-	protected static $scripts = ['/packages/almasaeed2010/adminlte/plugins/jQuery/jQuery-2.1.3.min.js', 'http://code.jquery.com/ui/1.11.2/jquery-ui.min.js'];
+	protected static $scripts = ['/packages/almasaeed2010/adminlte/plugins/jQuery/jQuery-2.1.3.min.js', 'http://code.jquery.com/ui/1.11.2/jquery-ui.min.js', 'admin::all.min.js'];
 
 	public static function styles()
 	{
