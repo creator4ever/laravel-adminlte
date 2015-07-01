@@ -1,14 +1,10 @@
 {
   "name": "gionnivaleriana/laravel-adminlte",
   "description": "Almsaeed's AdminLTE Template for Sleeping Owl's Admin Generator plugin for Laravel 5",
-  "repositories": [{
-    "type": "vcs",
-    "url": "https://github.com/creator4ever/admin.git"
-  }],
   "require": {
     "php": ">=5.4.0",
     "laravel/framework": "~5.0",
-    "sleeping-owl/admin": "dev-master",
+    "sleeping-owl/admin": "~2.0",
     "almasaeed2010/adminlte": "2.0.0"
   },
   "require-dev": {
