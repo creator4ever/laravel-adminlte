@@ -10,5 +10,4 @@
 <script src="{{ URL::asset('packages/almasaeed2010/adminlte/plugins/bootstrap-wysihtml5/bootstrap3-wysihtml5.all.min.js') }}" type="text/javascript"></script>
 <script src="{{ URL::asset('packages/almasaeed2010/adminlte/plugins/iCheck/icheck.min.js') }}" type="text/javascript"></script>
 <script src="{{ URL::asset('packages/almasaeed2010/adminlte/plugins/slimScroll/jquery.slimscroll.min.js') }}" type="text/javascript"></script>
-<script src='packages/almasaeed2010/adminlte/plugins/fastclick/fastclick.min.js'></script>
 <script src="{{ URL::asset('packages/almasaeed2010/adminlte/dist/js/app.min.js') }}" type="text/javascript"></script>
